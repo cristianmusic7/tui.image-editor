@@ -1482,6 +1482,10 @@ class ImageEditor {
         return this._graphics.getObjectProperties(id, keys);
     }
 
+    getCanvas() {
+        return this._graphics.getCanvas();
+    }
+
     /**
      * Get the canvas size
      * @returns {Object} {{width: number, height: number}} canvas size
